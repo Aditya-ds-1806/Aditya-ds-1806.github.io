@@ -1,5 +1,6 @@
 # Aditya DS's HomePage 🚧 Under Maintenance 🚧
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86ebccee-8731-4f92-a821-7dd7139e4074/deploy-status)](https://app.netlify.com/sites/aditya-ds-dev/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Aditya's personal website running on Gatsby, React, and Node.js.
