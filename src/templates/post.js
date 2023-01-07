@@ -154,7 +154,6 @@ const Article = styled.article`
   li,
   p {
     margin: 3 0;
-    text-align: justify;
   }
 
   a {
@@ -261,7 +260,6 @@ export default function Post({ data }) {
             </figure>
           </Article>
           <Tags categories={frontmatter.categories} />
-          <div className="utterances" style={{ marginTop: '2em' }} />
           <Location>
             {({ location }) => (
               <>
