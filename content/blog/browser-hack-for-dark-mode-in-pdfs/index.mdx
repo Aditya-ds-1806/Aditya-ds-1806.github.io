@@ -1,0 +1,40 @@
+---
+slug: 'browser-hack-for-dark-mode-in-pdfs'
+title: 'Browser hack for Dark Mode in PDFs! 🦉'
+date: '2021-10-18'
+author: 'Aditya DS'
+published: true
+banner: './images/cover.webp'
+description: ''
+categories:
+  - 'MindsDB'
+  - 'Machine Learning'
+  - 'MongoDB'
+  - 'MongoDB Atlas'
+---
+
+Dear dark mode lovers,
+
+In this article I present a hack to view PDFs in dark mode on any browser! 🔥
+
+To get started, open any PDF in your favorite browser. Then open the dev tools by using the shortcut <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>I</kbd> or <kbd>f12</kbd> and run one of the following in the *console* based on your browser:
+
+## New Microsoft Edge/Google Chrome/Brave/Opera
+```js
+document.embeds[0].style.filter = 'invert(0.95)';
+```
+
+## Firefox
+```js
+document.getElementById('viewerContainer').style.filter = 'invert(0.95)';
+```
+
+This is the original image:
+![Original Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/87jsm45m5j74qr92hqs8.png)
+ 
+Here is the result after running the script:
+![Dark Mode](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3x7zsmjh5eq5ax0hka4u.png)
+
+💡 You can change 0.95 to any number between 0 and 1.
+
+If you found this useful, like the post and share it with your friends!
