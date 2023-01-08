@@ -8,7 +8,7 @@ import { Seo } from '../containers/Seo';
 export default function AboutPage() {
   const data = useStaticQuery(graphql`
     query {
-      photo: file(relativePath: { eq: "piyush-devfest.jpg" }) {
+      photo: file(relativePath: { eq: "aditya.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_withWebp
