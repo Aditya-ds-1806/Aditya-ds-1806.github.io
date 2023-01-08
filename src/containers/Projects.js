@@ -340,6 +340,83 @@ function Projects({ projects }) {
       tags={['NPM', 'Node.js', 'JavaScript']}
     />,
     <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum6/500"
+      label={projects.Raga.label}
+      title="Carnatic Melakarta Raga Classifier"
+      isGithub
+      github="https://github.com/GaneshTS06/Raga-Classifier"
+      url="https://github.com/GaneshTS06/Raga-Classifier"
+      color="#6C2478"
+      description={projects.Raga.description}
+      tags={['Python', 'Librosa', 'Numpy', 'Fisher-Jenks Clustering']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum7/500"
+      label={projects.Dafi.label}
+      title="Digital Audio Fingerprinting"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/DAFi-python"
+      url="https://github.com/Aditya-ds-1806/DAFi-python"
+      color="#00CDCD"
+      description={projects.Dafi.description}
+      tags={['Python', 'Numpy', 'Scipy', 'Pymongo', 'Matplotlib']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum11/500"
+      label={projects.Microservice.label}
+      title="Microservices"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/microservices"
+      url="https://github.com/Aditya-ds-1806/microservices"
+      color="#F000B8"
+      description={projects.Microservice.description}
+      tags={['Node.js', 'Express', 'Mongoose', 'Docker']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum9/500"
+      label={projects.Prsc.label}
+      title="E-Prescription Management System"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/E-Prescription-Management"
+      url="https://github.com/Aditya-ds-1806/E-Prescription-Management"
+      color="#fff"
+      description={projects.Prsc.description}
+      tags={['Node.js', 'Express', 'Passport', 'JavaScript', 'FFT']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum8/500"
+      label={projects.Pingg.label}
+      title="Pingg.io"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/whatsapp-clone"
+      url="https://github.com/Aditya-ds-1806/whatsapp-clone"
+      color="#fff"
+      description={projects.Pingg.description}
+      tags={['JavaScript', 'Firebase', 'SCSS']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum10/500"
+      label={projects.Blog.label}
+      title="Blogging platform for college"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/ece-blog"
+      url="https://github.com/Aditya-ds-1806/ece-blog"
+      color="#00CDCD"
+      description={projects.Blog.description}
+      tags={['Node.js', 'Express', 'Mongoose', 'Passport', 'Summernote']}
+    />,
+    <ProjectTemplate
+      logo="https://picsum.photos/seed/picsum12/500"
+      label={projects.ocr.label}
+      title="OCR Web App"
+      isGithub
+      github="https://github.com/Aditya-ds-1806/OCR-backend"
+      url="https://github.com/Aditya-ds-1806/OCR-backend"
+      color="#fff"
+      description={projects.ocr.description}
+      tags={['Python', 'Tesseract', 'Flask', 'Numpy']}
+    />,
+    <ProjectTemplate
       logo="https://picsum.photos/seed/picsum3/500"
       label={projects.CICT.label}
       title="CICT 2020"
@@ -371,83 +448,6 @@ function Projects({ projects }) {
       color="#EF9B0F"
       description={projects.Samgatha.description}
       tags={['Node.js', 'EJS', 'Bootstrap']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum6/500"
-      label={projects.Raga.label}
-      title="Carnatic Melakarta Raga Classifier"
-      isGithub
-      github="https://github.com/GaneshTS06/Raga-Classifier"
-      url="https://github.com/GaneshTS06/Raga-Classifier"
-      color="#6C2478"
-      description={projects.Raga.description}
-      tags={['Python', 'Librosa', 'Numpy', 'Fisher-Jenks Clustering']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum7/500"
-      label={projects.Dafi.label}
-      title="Digital Audio Fingerprinting"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/DAFi-python"
-      url="https://github.com/Aditya-ds-1806/DAFi-python"
-      color="#00CDCD"
-      description={projects.Dafi.description}
-      tags={['Python', 'Numpy', 'Scipy', 'Pymongo', 'Matplotlib']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum8/500"
-      label={projects.Pingg.label}
-      title="Pingg.io"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/whatsapp-clone"
-      url="https://github.com/Aditya-ds-1806/whatsapp-clone"
-      color="#fff"
-      description={projects.Pingg.description}
-      tags={['JavaScript', 'Firebase', 'SCSS']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum9/500"
-      label={projects.Prsc.label}
-      title="E-Prescription Management System"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/E-Prescription-Management"
-      url="https://github.com/Aditya-ds-1806/E-Prescription-Management"
-      color="#fff"
-      description={projects.Prsc.description}
-      tags={['Node.js', 'Express', 'Passport', 'JavaScript', 'FFT']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum10/500"
-      label={projects.Blog.label}
-      title="Blogging platform for college"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/ece-blog"
-      url="https://github.com/Aditya-ds-1806/ece-blog"
-      color="#00CDCD"
-      description={projects.Blog.description}
-      tags={['Node.js', 'Express', 'Mongoose', 'Passport', 'Summernote']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum11/500"
-      label={projects.Microservice.label}
-      title="Microservices"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/microservices"
-      url="https://github.com/Aditya-ds-1806/microservices"
-      color="#F000B8"
-      description={projects.Microservice.description}
-      tags={['Node.js', 'Express', 'Mongoose', 'Docker']}
-    />,
-    <ProjectTemplate
-      logo="https://picsum.photos/seed/picsum12/500"
-      label={projects.ocr.label}
-      title="OCR Web App"
-      isGithub
-      github="https://github.com/Aditya-ds-1806/OCR-backend"
-      url="https://github.com/Aditya-ds-1806/OCR-backend"
-      color="#fff"
-      description={projects.ocr.description}
-      tags={['Python', 'Tesseract', 'Flask', 'Numpy']}
     />,
   ];
   return (
