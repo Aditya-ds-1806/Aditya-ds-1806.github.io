@@ -25,101 +25,19 @@ export default function AboutPage() {
         <Container>
           <SectionTitle>Hi I&#39;m Aditya!</SectionTitle>
           <SectionDescription>
-            I&#39;m a software engineer based in India, who enjoys building
-            things. I&#39;m a cross trainer, brass instrument player and a
-            fitness enthusiast and a{' '}
-            <a
-              style={{ textDecoration: 'underline', color: '#FFCC68' }}
-              href="https://www.youtube.com/channel/UCK8jrKCxTyhrDcF_pHLgWSw"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              YouTube Educator .
-            </a>
+            I&#39;m an aspiring software developer based in India. I have been developing full stack web, mobile
+            and desktop applications in Node.js, React, MongoDB, Electron and other cool frameworks since the
+            past 3 years.
+            <br />
+            <br />
+            I developed a deep interest in <strong>Chess</strong> during the lockdown of 2020 and since then I have been playing
+            and following the game very closely. I am also an amateur <strong>Carnatic Flutist</strong> and was first introduced to the instrument
+            back in 2014. Recently, I rediscovered my interest in <strong>Astronomy</strong> and very soon I will begin stargazing!
           </SectionDescription>
         </Container>
         <AboutImage img={data.photo.childImageSharp} />
         <AboutText>
-          <p>
-            I&apos;ve trained <strong>500+</strong> students for HTML, CSS, JS,
-            React, Git and Data Structures with Placement Training while I was{' '}
-            <a
-              href="https://developers.google.com/community/dsc"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Google DSC Lead
-            </a>
-            .{' '}
-            <a
-              href="https://photos.app.goo.gl/oLHmwLPseAtDFTk98"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <br />
-              Here
-            </a>{' '}
-            and
-            <a
-              href="https://photos.app.goo.gl/7J7EgU2gmzoUWUoa8"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {' '}
-              Here
-            </a>{' '}
-            are some of the photos and videos of my <strong>
-              workshops
-            </strong>{' '}
-          </p>
-
-          <p>
-            I joined the founding team of{' '}
-            <a
-              href="https://www.gonuclei.com"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Nuclei
-            </a>{' '}
-            to build the{' '}
-            <strong>
-              First banking SDKs which enable better services to customers and
-              banks in India
-            </strong>
-            .
-          </p>
-
-          <p>
-            In 2017, I worked with{' '}
-            <strong>
-              {' '}
-              <a
-                href="http://www.meawwworld.com"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                MEAWW
-              </a>
-            </strong>
-            , a single place for media and arts news and here I made Dashboard
-            using React, Redux, Node to help Influencers reach the audience!
-            Which is currently being used by influencers on{' '}
-            <strong>Facebook, FlipBoard & Instagram</strong>.
-          </p>
-
-          <p>
-            Over the years, I’ve become passionate about open source software
-            and sharing with others behind my computer or as a speaker at
-            conferences.
-          </p>
-
-          <p>
-            Don&apos;t hesitate to reach out by{' '}
-            <a href="mailto:adithya18062000@gmail.com">email</a> or on{' '}
-            <a href="https://twitter.com/ThisIsAdityads">Twitter</a>. I&apos;ll
-            be happy to talk!
-          </p>
+          Work Experience and Education coming soon!
         </AboutText>
       </AboutContainer>
     </>

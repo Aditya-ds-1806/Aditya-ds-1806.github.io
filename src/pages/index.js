@@ -34,7 +34,7 @@ export default class IndexPage extends React.Component {
             <br />
             <span role="img" aria-label='student'>♟️</span> Chess aficionado
             <br />
-            <span role="img" aria-label='music'>🎶</span> Novice Carnatic Flutist
+            <span role="img" aria-label='music'>🎶</span> Amateur Carnatic Flutist
             <br />
             <span role="img" aria-label='telescope'>🔭</span> Astronomy Enthusiast
           </HeroTeaser>
