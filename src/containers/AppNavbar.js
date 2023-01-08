@@ -8,7 +8,7 @@ import { Navbar, NavbarBrand, NavbarSecondary } from '../components/Navbar';
 const links = {
   about: '$whoami',
   blog: 'Blog',
-  uses: 'Uses',
+  // uses: 'Uses',
   projects: 'Projects',
   resume: 'Resume',
 };
@@ -84,7 +84,7 @@ export function AppNavbar() {
               <Link to="/blog">{links.blog}</Link>
             </LinkStyle>{' '}
           </motion.div>
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             variants={item}
@@ -92,7 +92,7 @@ export function AppNavbar() {
             <LinkStyle>
               <Link to="/uses">{links.uses}</Link>
             </LinkStyle>
-          </motion.div>
+          </motion.div> */}
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
