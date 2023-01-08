@@ -6,14 +6,7 @@ export default function ProjectsPage() {
   return (
     <ProjectsPageTemplate
       title="Projects"
-      intro={
-        <>
-          Open source is a real passion and a way of thinking. I've made many
-          <strong> Dashboards</strong> and <strong>Web Apps</strong> with strong
-          architecture, great UX and bleeding edge tech for clients and
-          companies worldwide
-        </>
-      }
+      intro='Everything I have ever made and proud of!'
       projects={{
         Skribblrs: {
           label: 'Multiplayer online game',
