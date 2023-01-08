@@ -28,17 +28,15 @@ export default class IndexPage extends React.Component {
           </HeroTitle>
 
           <HeroTeaser>
-            I am a full-time Full Stack Developer/Designer, an educator on
-            youtube also known as CoderWhoKnows, a hobbyist Virtual Aviation
-            Simmer with an experience of (180+ hours) and a trumpet player based
-            in Canada{' '}
-            <span role="img" aria-label="Canada Flag">
-              🇨🇦
-            </span>
+            I am a final year Engineering student at <strong>IIITDM Kancheepuram</strong>,
+            aspiring to become a Full Stack Software Developer.
             <br />
             <br />
-            I create, design tools and Apps for companies and individuals.
+            <span role="img" aria-label='student'>♟️</span> Chess aficionado
             <br />
+            <span role="img" aria-label='music'>🎶</span> Novice Carnatic Flutist
+            <br />
+            <span role="img" aria-label='telescope'>🔭</span> Astronomy Enthusiast
           </HeroTeaser>
           <GitHubButton
             href="https://github.com/aditya-ds-1806"
