@@ -323,7 +323,7 @@ function Projects({ projects }) {
       title="Skribblrs.io"
       isGithub
       github="https://github.com/Aditya-ds-1806/Skribblrs.io"
-      url="https://github.com/Aditya-ds-1806/Skribblrs.io"
+      url="https://skribblrs.up.railway.app/"
       color="#667EEA"
       description={projects.Skribblrs.description}
       tags={['Node.js', 'Express', 'Socket.io', 'EJS', 'Bootstrap']}
@@ -345,7 +345,7 @@ function Projects({ projects }) {
       title="Carnatic Melakarta Raga Classifier"
       isGithub
       github="https://github.com/GaneshTS06/Raga-Classifier"
-      url="https://github.com/GaneshTS06/Raga-Classifier"
+      url="https://mybinder.org/v2/gh/GaneshTS06/Raga-Classifier/HEAD?labpath=main.ipynb"
       color="#6C2478"
       description={projects.Raga.description}
       tags={['Python', 'Librosa', 'Numpy', 'Fisher-Jenks Clustering']}
@@ -356,7 +356,7 @@ function Projects({ projects }) {
       title="Digital Audio Fingerprinting"
       isGithub
       github="https://github.com/Aditya-ds-1806/DAFi-python"
-      url="https://github.com/Aditya-ds-1806/DAFi-python"
+      url="https://mybinder.org/v2/gh/Aditya-ds-1806/DAFi-python/HEAD?labpath=index.ipynb"
       color="#00CDCD"
       description={projects.Dafi.description}
       tags={['Python', 'Numpy', 'Scipy', 'Pymongo', 'Matplotlib']}
@@ -378,7 +378,7 @@ function Projects({ projects }) {
       title="E-Prescription Management System"
       isGithub
       github="https://github.com/Aditya-ds-1806/E-Prescription-Management"
-      url="https://github.com/Aditya-ds-1806/E-Prescription-Management"
+      url="https://e-prescription-management.up.railway.app/"
       color="#fff"
       description={projects.Prsc.description}
       tags={['Node.js', 'Express', 'Passport', 'JavaScript', 'FFT']}
@@ -389,7 +389,7 @@ function Projects({ projects }) {
       title="Pingg.io"
       isGithub
       github="https://github.com/Aditya-ds-1806/whatsapp-clone"
-      url="https://github.com/Aditya-ds-1806/whatsapp-clone"
+      url="https://whatsappclone-dive.web.app/"
       color="#fff"
       description={projects.Pingg.description}
       tags={['JavaScript', 'Firebase', 'SCSS']}
@@ -411,7 +411,7 @@ function Projects({ projects }) {
       title="OCR Web App"
       isGithub
       github="https://github.com/Aditya-ds-1806/OCR-backend"
-      url="https://github.com/Aditya-ds-1806/OCR-backend"
+      url="https://aditya-ds-1806.github.io/OCR/"
       color="#fff"
       description={projects.ocr.description}
       tags={['Python', 'Tesseract', 'Flask', 'Numpy']}
@@ -444,7 +444,7 @@ function Projects({ projects }) {
       title="Samgatha 2020"
       isGithub
       github="https://github.com/Aditya-ds-1806/Samgatha-2020"
-      url="https://github.com/Aditya-ds-1806/Samgatha-2020"
+      url="https://samgatha-2020.up.railway.app/"
       color="#EF9B0F"
       description={projects.Samgatha.description}
       tags={['Node.js', 'EJS', 'Bootstrap']}
