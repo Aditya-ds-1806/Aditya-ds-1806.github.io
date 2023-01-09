@@ -28,15 +28,25 @@ export default class IndexPage extends React.Component {
           </HeroTitle>
 
           <HeroTeaser>
-            I am a final year Engineering student at <strong>IIITDM Kancheepuram</strong>,
-            aspiring to become a Full Stack Software Developer.
+            I am a final year Engineering student at{' '}
+            <strong>IIITDM Kancheepuram</strong>, aspiring to become a Full
+            Stack Software Developer.
             <br />
             <br />
-            <span role="img" aria-label='student'>♟️</span> Chess aficionado
+            <span role="img" aria-label="student">
+              ♟️
+            </span>{' '}
+            Chess aficionado
             <br />
-            <span role="img" aria-label='music'>🎶</span> Amateur Carnatic Flutist
+            <span role="img" aria-label="music">
+              🎶
+            </span>{' '}
+            Amateur Carnatic Flutist
             <br />
-            <span role="img" aria-label='telescope'>🔭</span> Astronomy Enthusiast
+            <span role="img" aria-label="telescope">
+              🔭
+            </span>{' '}
+            Astronomy Enthusiast
           </HeroTeaser>
           <GitHubButton
             href="https://github.com/aditya-ds-1806"

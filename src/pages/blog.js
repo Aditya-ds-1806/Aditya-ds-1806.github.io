@@ -12,7 +12,8 @@ export default function Blog({ data }) {
       <PageContainer>
         <SectionTitle>Blog</SectionTitle>
         <SectionDescription>
-          I write about anything and everything tech that I come across. Hope you enjoy them and find them insightful!
+          I write about anything and everything tech that I come across. Hope
+          you enjoy them and find them insightful!
         </SectionDescription>
         <LatestArticles edges={data.allMdx.edges} />
       </PageContainer>
