@@ -399,8 +399,8 @@ function Projects({ projects }) {
       label={projects.Blog.label}
       title="Blogging platform for college"
       isGithub
-      github="https://github.com/Aditya-ds-1806/ece-blog"
-      url="https://github.com/Aditya-ds-1806/ece-blog"
+      github="https://github.com/Aditya-ds-1806/students-blog"
+      url="https://students-blog.up.railway.app/"
       color="#00CDCD"
       description={projects.Blog.description}
       tags={['Node.js', 'Express', 'Mongoose', 'Passport', 'Summernote']}
