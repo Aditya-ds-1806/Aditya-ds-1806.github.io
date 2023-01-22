@@ -56,6 +56,12 @@ const theme = {
     darker: th.color('black'),
     accent: '#FFCC68',
 
+    chrono_primary: '#FFCC68',
+    chrono_secondary: '#22264A',
+    chrono_bg_color: '#282E5E',
+    chrono_fore_color: '#ADB2DC',
+    chrono_title_color: '#ADB2DC',
+    chrono_title_active_color: '#FFCC68',
     modes: {
       light: {
         lighter: '#100F4D',
@@ -70,6 +76,14 @@ const theme = {
         light100: '#363B65',
         darker: th.color('white'),
         accent: '#b54909',
+
+        chrono_primary: '#B54909',
+        chrono_secondary: '#EFEFF5',
+        chrono_bg_color:
+          'linear-gradient(340deg, var(--xstyled-colors-card-gradient-light,#2e3360) 0%, var(--xstyled-colors-card-gradient-dark,#1f2347) 100%)',
+        chrono_fore_color: '#535988',
+        chrono_title_color: '#535988',
+        chrono_title_active_color: '#B54909',
       },
       'monochrome-light': {
         lighter: th.color('black'),

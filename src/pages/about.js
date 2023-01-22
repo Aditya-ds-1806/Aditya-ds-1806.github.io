@@ -1,10 +1,35 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Chrono } from 'react-chrono';
+import { withTheme } from '@xstyled/styled-components';
 import { Container } from '../components/Container';
 import { SectionDescription, SectionTitle } from '../components/Section';
 import { AboutContainer, AboutImage, AboutText } from '../containers/About';
 import { Seo } from '../containers/Seo';
+
+function MyChrono(props) {
+  const theme = {
+    primary: props.theme.colors.chrono_primary,
+    secondary: props.theme.colors.chrono_secondary,
+    cardBgColor: props.theme.colors.chrono_bg_color,
+    cardForeColor: props.theme.colors.chrono_fore_color,
+    titleColor: props.theme.colors.chrono_title_color,
+    titleColorActive: props.theme.colors.chrono_title_active_color,
+  };
+  console.log(theme);
+
+  return (
+    <Chrono
+      hideControls
+      useReadMore={false}
+      items={props.items}
+      cardHeight="100%"
+      theme={theme}
+    />
+  );
+}
+
+const StyledChrono = withTheme(MyChrono);
 
 export default function AboutPage() {
   const data = useStaticQuery(graphql`
@@ -48,7 +73,7 @@ export default function AboutPage() {
       url: 'https://www.4climate.in/',
       cardTitle: '4Climate, 📌Chennai',
       timelineContent: (
-        <ul style={{ paddingInlineStart: '1rem', fontSize: '1rem' }}>
+        <ul style={{ paddingInlineStart: '1rem' }}>
           <li>
             Worked on a web dashboard for clients to remotely monitor and
             control their hydroponics kits
@@ -67,7 +92,7 @@ export default function AboutPage() {
       cardSubtitle: 'Desktop App Developer Intern',
       cardTitle: 'Dr. Vineet K. Srivastav, ISRO, 📌Bengaluru',
       timelineContent: (
-        <ul style={{ paddingInlineStart: '1rem', fontSize: '1rem' }}>
+        <ul style={{ paddingInlineStart: '1rem' }}>
           <li>
             Worked on a cross-platform desktop application called{' '}
             <strong>Orbital Toolkit(OTK)</strong>
@@ -89,7 +114,7 @@ export default function AboutPage() {
       cardSubtitle: 'Software Developer Intern',
       cardTitle: 'Powerplay, 📌Bengaluru',
       timelineContent: (
-        <ul style={{ paddingInlineStart: '1rem', fontSize: '1rem' }}>
+        <ul style={{ paddingInlineStart: '1rem' }}>
           <li>
             Worked mainly in the Backend and Web team to develop serveral user
             facing features such as Guest Login, Indenting/Outdenting tasks etc
@@ -127,19 +152,11 @@ export default function AboutPage() {
         </Container>
         <AboutImage img={data.photo.childImageSharp} />
         <AboutText>
-          <Chrono
+          <StyledChrono
             hideControls
             useReadMore={false}
             items={items}
             cardHeight="100%"
-            theme={{
-              primary: '#FFCC68',
-              secondary: '#22264A',
-              cardBgColor: '#282E5E',
-              cardForeColor: '#ADB2DC',
-              titleColor: '#ADB2DC',
-              titleColorActive: '#FFCC68',
-            }}
           />
         </AboutText>
       </AboutContainer>
