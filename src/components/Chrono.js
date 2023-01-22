@@ -12,6 +12,13 @@ function CustomChrono(props) {
     titleColorActive: props.theme.colors.chrono_title_active_color,
   };
 
+  const isBrowser = typeof window !== 'undefined';
+  let mode = 'VERTICAL_ALTERNATING';
+
+  if (isBrowser) {
+    mode = window.innerWidth < 768 ? 'VERTICAL' : 'VERTICAL_ALTERNATING';
+  }
+
   return (
     <Chrono
       hideControls
@@ -19,7 +26,7 @@ function CustomChrono(props) {
       items={props.items}
       cardHeight="100%"
       theme={theme}
-      mode={window.innerWidth < 768 ? 'VERTICAL' : 'VERTICAL_ALTERNATING'}
+      mode={mode}
     />
   );
 }
