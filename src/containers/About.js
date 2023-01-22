@@ -19,7 +19,9 @@ export const AboutContainer = styled.div`
 export const AboutText = styled(Container)`
   margin-top: 5;
   max-width: none;
-  p {
+  padding: 0;
+  p,
+  ul {
     font-size: 18;
     line-height: 1.6;
     text-align: left;
