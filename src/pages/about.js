@@ -1,35 +1,10 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import { Chrono } from 'react-chrono';
-import { withTheme } from '@xstyled/styled-components';
 import { Container } from '../components/Container';
 import { SectionDescription, SectionTitle } from '../components/Section';
+import CustomChrono from '../components/Chrono';
 import { AboutContainer, AboutImage, AboutText } from '../containers/About';
 import { Seo } from '../containers/Seo';
-
-function MyChrono(props) {
-  const theme = {
-    primary: props.theme.colors.chrono_primary,
-    secondary: props.theme.colors.chrono_secondary,
-    cardBgColor: props.theme.colors.chrono_bg_color,
-    cardForeColor: props.theme.colors.chrono_fore_color,
-    titleColor: props.theme.colors.chrono_title_color,
-    titleColorActive: props.theme.colors.chrono_title_active_color,
-  };
-  console.log(theme);
-
-  return (
-    <Chrono
-      hideControls
-      useReadMore={false}
-      items={props.items}
-      cardHeight="100%"
-      theme={theme}
-    />
-  );
-}
-
-const StyledChrono = withTheme(MyChrono);
 
 export default function AboutPage() {
   const data = useStaticQuery(graphql`
@@ -152,12 +127,7 @@ export default function AboutPage() {
         </Container>
         <AboutImage img={data.photo.childImageSharp} />
         <AboutText>
-          <StyledChrono
-            hideControls
-            useReadMore={false}
-            items={items}
-            cardHeight="100%"
-          />
+          <CustomChrono items={items} />
         </AboutText>
       </AboutContainer>
     </>
