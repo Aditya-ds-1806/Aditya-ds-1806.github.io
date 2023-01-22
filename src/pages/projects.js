@@ -6,7 +6,7 @@ export default function ProjectsPage() {
   return (
     <ProjectsPageTemplate
       title="Projects"
-      intro='Everything I have ever made and proud of!'
+      intro="Everything I have ever made and proud of!"
       projects={{
         Skribblrs: {
           label: 'Multiplayer online game',

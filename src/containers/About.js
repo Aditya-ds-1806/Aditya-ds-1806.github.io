@@ -18,13 +18,15 @@ export const AboutContainer = styled.div`
 
 export const AboutText = styled(Container)`
   margin-top: 5;
-
-  p {
+  max-width: none;
+  padding: 0;
+  p,
+  ul {
     font-size: 18;
     line-height: 1.6;
-    text-align: justify;
+    text-align: left;
 
-    a {
+    a[href] {
       transition: base;
       color: lighter;
       border-bottom: 1px dotted;
