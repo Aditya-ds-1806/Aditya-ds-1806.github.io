@@ -2,7 +2,7 @@ import styled, { css, up } from '@xstyled/styled-components';
 import { motion } from 'framer-motion';
 import { Link } from 'gatsby';
 import React from 'react';
-import resume from '../assets/_resume_.pdf';
+import resume from '../assets/Aditya_DS_Resume.pdf';
 import { Navbar, NavbarBrand, NavbarSecondary } from '../components/Navbar';
 
 const links = {
